@@ -1,6 +1,6 @@
 {
   "name": "indicative-utils",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Reusable utilities for indicative validation library",
   "scripts": {
     "mrm": "mrm --preset=@adonisjs/mrm-preset",
