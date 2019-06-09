@@ -63,7 +63,7 @@ export function cast (
       break
   }
 
-  if (!castedValue && errorMessage) {
+  if (castedValue === null && errorMessage) {
     throw new Error(errorMessage)
   }
 
