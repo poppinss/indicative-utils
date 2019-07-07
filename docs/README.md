@@ -1,11 +1,9 @@
+> **[indicative-utils](README.md)**
 
-#  indicative-utils
+[Globals](README.md) /
 
-## Index
+### Index
 
-### External modules
+#### External modules
 
 * [indicative-utils](modules/indicative_utils.md)
-
----
-

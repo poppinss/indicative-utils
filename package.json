@@ -1,6 +1,6 @@
 {
   "name": "indicative-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reusable utilities for indicative validation library",
   "main": "build/index.js",
   "files": [
