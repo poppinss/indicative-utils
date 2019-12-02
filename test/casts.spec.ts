@@ -7,7 +7,7 @@
 * file that was distributed with this source code.
 */
 
-import * as test from 'japa'
+import test from 'japa'
 import { cast } from '../src/cast'
 
 test.group('toBoolean', () => {

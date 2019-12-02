@@ -7,22 +7,22 @@
 * file that was distributed with this source code.
 */
 
-import * as test from 'japa'
+import test from 'japa'
 import { ensureLength } from '../src/ensureLength'
 
 test.group('ensureLength', () => {
   test('raise error when array length is less than desired length', (assert) => {
-    const fn = () => ensureLength([], 'Must be 1', 1)
+    const fn = (): void => ensureLength([], 'Must be 1', 1)
     assert.throw(fn, 'Must be 1')
   })
 
   test('work fine when array length is same as desired length', (assert) => {
-    const fn = () => ensureLength(['hello'], 'Must be 1', 1)
+    const fn = (): void => ensureLength(['hello'], 'Must be 1', 1)
     assert.doesNotThrow(fn, 'Must be 1')
   })
 
   test('work fine when array length is greater than desired length', (assert) => {
-    const fn = () => ensureLength(['hello', 'hi'], 'Must be 1', 1)
+    const fn = (): void => ensureLength(['hello', 'hi'], 'Must be 1', 1)
     assert.doesNotThrow(fn, 'Must be 1')
   })
 })

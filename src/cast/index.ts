@@ -40,6 +40,7 @@ export function cast (
   toType: 'float' | 'date' | 'string' | 'integer' | 'boolean',
   errorMessage?: string,
 ): any {
+  /* eslint "valid-typeof": "off" */
   if (typeof(value) === toType) {
     return value
   }

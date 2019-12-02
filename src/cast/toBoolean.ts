@@ -15,8 +15,9 @@ const positives = ['true', '1', 1]
 const negatives = ['false', '0', 0]
 
 /**
- * Casts value to a boolean. Also `string values 'true'`, `'false'`, `'0'`, `'1'`,
- * and numeric values `0`, `1` will be casted to a boolean.
+ * Casts value to a boolean. Also string values `'true'`, `'false'`,
+ * `'0'`, `'1'`, and numeric values `0`, `1` will be casted to
+ * a boolean.
  */
 export function toBoolean (value: any): boolean | null {
   if (typeof (value) === 'boolean') {
