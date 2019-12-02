@@ -1,6 +1,6 @@
 {
   "name": "indicative-utils",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "description": "Reusable utilities for indicative validation library",
   "main": "build/index.js",
   "files": [
@@ -15,7 +15,7 @@
     "lint": "eslint .",
     "clean": "del build",
     "compile": "npm run lint && npm run clean && tsc",
-    "build": "npm run compile && typedoc --theme markdown --mdHideSources --excludePrivate && git add docs",
+    "build": "npm run compile && typedoc --theme markdown --hideSources --excludePrivate && git add docs",
     "commit": "git-cz",
     "release": "np",
     "version": "npm run build"
